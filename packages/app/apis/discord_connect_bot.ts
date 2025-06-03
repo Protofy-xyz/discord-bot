@@ -24,6 +24,7 @@ import { APIContext } from "protolib/bundles/apiContext"
 import { Application } from 'express';
 import fs from 'fs'
 import path from "path";
+import { getKey } from "protolib/bundles/keys/context";
 
 const root = path.join(process.cwd(), '..', '..')
 const logger = getLogger()
@@ -36,8 +37,12 @@ export default Protofy("code", async (app: Application, context: typeof APIConte
     //context.deviceSub allows to receive notifications from devices via mqtt
     //app is a normal expressjs object
     //context.mqtt is a mqttclient connection
+    
+    const DISCORD_APP_TOKEN = await getKey({ key: "DISCORD_APP_TOKEN", token: getServiceToken() }) ?? process.env.DISCORD_APP_TOKEN;
+    
     await context.discord.connect({
         onMessage: async (message) => { },
+        apiKey: DISCORD_APP_TOKEN,
         onConnect: async (client) =>
             await context.logs.log({
                 message: "Discord bot successfully connected! ",
