@@ -31,5 +31,15 @@ Check the [getting started](https://github.com/Protofy-xyz/Protofy/blob/main/doc
 
 ![discord-command](https://github.com/Protofy-xyz/discord-bot/blob/main/data/public/discord-command.png?raw=true)
 
+## 🧠 How it works?
+
+Thanks to the discord_connect_bot automation, the bot connects automatically — no config headaches required.
+
+To create a command, just run the discord_command_hello automation from within the workspace. Boom, your bot is now polite.
+
+Want to clean up? Run discord_delete_command to remove the command. Easy come, easy go.
+
+Feel free to modify or add as many commands as you need — it’s your bot.
+
 ## 🙌 Contributing and Community
 Join us at [Discord]("https://discord.gg/VpeZxMFfYW") to ask questions about bugs or specific use cases, share your builds or just discus ideas.
