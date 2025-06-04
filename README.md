@@ -10,9 +10,6 @@ Use it to explore what's possible, get inspired, or kickstart your own automated
 </p>
 
 <h4 align="center">
-  <a href="https://github.com/your-username/kanban-protofy/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors-anon/your-username/kanban-protofy?color=yellow&style=flat" alt="contributors" style="height: 20px;">
-  </a>
   <a href="https://opensource.org/licenses/mit">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="license" style="height: 20px;">
   </a>
