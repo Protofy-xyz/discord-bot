@@ -31,7 +31,11 @@ Check the [getting started](https://github.com/Protofy-xyz/Protofy/blob/main/doc
 
 ![discord-command](https://github.com/Protofy-xyz/discord-bot/blob/main/data/public/discord-command.png?raw=true)
 
-## 🧠 How it works?
+## 🫡 Before launch
+
+Add discord required keys on .env (DISCORD_APP_TOKEN, DISCORD_GUILD_ID, DISCORD_CLIENT_ID)
+
+## ⚙️ How it works?
 
 Thanks to the discord_connect_bot automation, the bot connects automatically — no config headaches required.
 
